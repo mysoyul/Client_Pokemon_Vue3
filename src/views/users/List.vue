@@ -85,7 +85,7 @@ import { useUsersStore } from '@/stores';
 
 const params = reactive({
 	pageNo: 0,
-	pageSize: 2
+	pageSize: 3
 });
 
 const usersStore = useUsersStore();
