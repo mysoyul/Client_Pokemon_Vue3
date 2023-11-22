@@ -12,7 +12,7 @@
         <tbody>
             <template v-if="pokemons.length > 0">
                 <div>{{ params.pageNo }} /{{ pageCount }}</div>
-                <tr v-for="pokemon in pokemons" :key="pokemon.id">
+                <tr v-for="pokemon in pokemons" v-bind:key="pokemon.id">
                     <td>{{ pokemon.name }}</td>
                     <td>{{ pokemon.type }}</td>
                     <td style="white-space: nowrap">
